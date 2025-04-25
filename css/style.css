@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: var(--shrikhand);
+  font-style: italic;
+  font-size: 30px;
+}
+h2 {
+  font-family: var(--roboto);
+  font-weight: 700;
+  font-size: 24px;
+}
+h3 {
+  font-family: var(--roboto);
+  font-weight: 700;
+  font-size: 18px;
+}
+p {
+  font-family: var(--roboto);
+  font-weight: 300;
+  font-size: 15px;
+}
+.container {
+  padding: 0 15px;
+}
+
+#index {
+  header {
+    display: grid;
+    grid-template-columns: 6% 88% 6%;
+    text-align: center;
+    align-items: center;
+    padding: 25px 15px;
+    nav {
+      display: none;
+    }
+    .arrow {
+      color: #fff;
+    }
+  }
+  #professionnals {
+    background-color: #ffae00;
+    text-align: center;
+    padding: 30px 15px;
+  }
+}

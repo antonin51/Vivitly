@@ -10,10 +10,11 @@
     ></script>
     <title>Vividly</title>
   </head>
-  <body>
-    <header>
+  <body id="index">
+    <header class="container">
+      <i class="fa-solid fa-arrow-left arrow"></i>
       <h1>Vividly</h1>
-      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars bars"></i>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
@@ -22,19 +23,133 @@
         </ul>
       </nav>
     </header>
-
     <main>
-      <section>
+      <section id="professionnals">
         <div>
-          <h2>Find a professionnal</h2>
+          <h2>Find a professional near you</h2>
           <p>
-            Work to be done? Our network offers you the best <br />professionals
+            Work to be done? Our network offers you the best professionals
             around you.
           </p>
-          <p></p>
-          <form action="/"></form>
+          <form action="/">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Choose a location"
+            />
+            <button type="submit">Discover the list</button>
+          </form>
         </div>
       </section>
+
+      <section id="works">
+        <h2>How it works</h2>
+        <ul>
+          <li>
+            <p>1</p>
+            <p>Enter your location</p>
+          </li>
+          <li>
+            <p>2</p>
+            <p>Choose a professional</p>
+          </li>
+          <li>
+            <p>3</p>
+            <p>Recieve a quote</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="Choose">
+        <div id="div-container">
+          <h2>Chose your professionnal</h2>
+          <div>
+            <article class="cards">
+              <img src="img/constructeur1.jpg" alt="constructeur" />
+              <a href="/">
+                <h3>Smith & Sons Construction Co.</h3>
+                <p>Brignoles</p>
+              </a>
+              <form action="/">
+                <p>Recommand this professionnal</p>
+                <label for="chosing">
+                  <img
+                    src="img/thumbs-up-regular.svg"
+                    alt="thumbs-up"
+                    class="pocebleu"
+                  />
+                </label>
+              </form>
+            </article>
+
+            <article class="cards">
+              <img src="img/constructeur2.jpg" alt="constructeur" />
+              <a href="/">
+                <h3>Greenway Builders</h3>
+                <p>Tourves</p>
+              </a>
+              <form action="/">
+                <p>Recommand this professionnal</p>
+                <label for="chosing">
+                  <img
+                    src="img/thumbs-up-regular.svg"
+                    alt="thumbs-up"
+                    class="pocebleu"
+                  />
+                </label>
+              </form>
+            </article>
+
+            <article class="cards">
+              <img src="img/constructeur3.jpg" alt="constructeur" />
+              <a href="/">
+                <h3>Summit Construction Services</h3>
+                <p>Camps-La-Source</p>
+              </a>
+              <form action="/">
+                <p>Recommand this professionnal</p>
+                <label for="chosing">
+                  <img
+                    src="img/thumbs-up-regular.svg"
+                    alt="thumbs-up"
+                    class="pocebleu"
+                  />
+                </label>
+              </form>
+            </article>
+
+            <article class="cards">
+              <img src="img/constructeur4.jpg" alt="constructeur" />
+              <a href="/">
+                <h3>Elite Builders Group</h3>
+                <p>Vins-Sur-Caramy</p>
+              </a>
+              <form action="/">
+                <p>Recommand this professionnal</p>
+                <label for="chosing">
+                  <img
+                    src="img/thumbs-up-regular.svg"
+                    alt="thumbs-up"
+                    class="pocebleu"
+                  />
+                </label>
+              </form>
+            </article>
+          </div>
+          <a href="/">Load more</a>
+        </div>
+      </section>
+
+      <footer>
+        <h2>Vividly</h2>
+        <ul>
+          <li><a href="/">Suggest a professional</a></li>
+          <li><a href="/">Become partner</a></li>
+          <li><a href="/">Legal notice</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </footer>
     </main>
   </body>
 </html>

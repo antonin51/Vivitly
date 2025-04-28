@@ -27,17 +27,19 @@
     <main>
       <section id="smith">
         <img src="img/constructeur1.jpg" alt="constructeur" />
-        <h2>Smith & Sons Construction Co.</h2>
-        <form action="/">
-          <p>Recommand this professionnal</p>
-          <label for="chosing">
-            <img
-              src="img/thumbs-up-regular.svg"
-              alt="thumbs-up"
-              class="pocebleu"
-            />
-          </label>
-        </form>
+        <div>
+          <h2>Smith & Sons Construction Co.</h2>
+          <form action="/">
+            <p>Recommand this professionnal</p>
+            <label for="chosing">
+              <img
+                src="img/thumbs-up-regular.svg"
+                alt="thumbs-up"
+                class="pocebleu"
+              />
+            </label>
+          </form>
+        </div>
       </section>
 
       <section id="about">
@@ -67,23 +69,25 @@
         <h2>Contact us</h2>
         <ul>
           <li>
-            <a href="#"><i class="fa-solid fa-phone"></i>Call us now!</a>
+            <a href="#"><i class="fa-solid fa-phone icone"></i>Call us now!</a>
           </li>
           <li>
-            <a href="#"><i class="fa-solid fa-envelope"></i>Send us an email</a>
+            <a href="#"
+              ><i class="fa-solid fa-envelope icone"></i>Send us an email</a
+            >
           </li>
         </ul>
         <article>
           <h3>Follow us</h3>
-          <ul>
+          <ul id="reseau">
             <li>
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter reseau"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin reseau"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook reseau"></i></a>
             </li>
           </ul>
         </article>
@@ -100,8 +104,15 @@
             name="message"
             id="message"
             placeholder="Your message"
+            rows="10"
           ></textarea>
-          <label for="RGPD"></label>
+          <div class="RGPD">
+            <input type="checkbox" name="RGPD" id="RGPD" />
+            <label for="RGPD">
+              <p>I accept the politic of confidentiality</p>
+            </label>
+          </div>
+          <button type="submit">Send</button>
         </form>
       </section>
     </main>

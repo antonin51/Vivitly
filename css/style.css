@@ -169,6 +169,18 @@ p {
               width: 20px;
               height: 20px;
             }
+            input[type="checkbox"] {
+              display: none;
+              &:checked + label .image1 {
+                display: none;
+              }
+              &:checked + label .image2 {
+                display: block;
+              }
+            }
+            .image2 {
+              display: none;
+            }
           }
         }
       }
@@ -253,6 +265,18 @@ p {
       img {
         width: 20px;
         height: 20px;
+      }
+      input[type="checkbox"] {
+        display: none;
+        &:checked + label .image1 {
+          display: none;
+        }
+        &:checked + label .image2 {
+          display: block;
+        }
+      }
+      .image2 {
+        display: none;
       }
     }
   }
